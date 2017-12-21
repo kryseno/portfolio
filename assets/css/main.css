@@ -6812,7 +6812,8 @@ body.left-menu header.site-header .home-fw-slider.style-4 {
   text-align: center;
 }
 .service-section-01 .image-container img {
-  max-width: 100%;
+  width: 80px;
+  height: 80px;
 }
 .service-section-01 .block-service-style-01 {
   margin: 0 auto;
