@@ -104,6 +104,8 @@ h4 {
 }
 h5 {
   font-size: 14px;
+  font-variant: small-caps;
+  font-weight: bold;
 }
 h6 {
   font-size: 11px;
@@ -135,10 +137,6 @@ h5.nmb,
 h6.nmb,
 p.nmb {
   margin-bottom: 0;
-}
-.skills-img {
-  width: 70px;
-  height: 70px;
 }
 ::-moz-selection {
   background-color: #9c5b57;
@@ -6814,7 +6812,8 @@ body.left-menu header.site-header .home-fw-slider.style-4 {
   text-align: center;
 }
 .service-section-01 .image-container img {
-  max-width: 100%;
+  width: 80px;
+  height: 80px;
 }
 .service-section-01 .block-service-style-01 {
   margin: 0 auto;
