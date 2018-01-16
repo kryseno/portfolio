@@ -46,8 +46,8 @@ $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers.
 $mail->SMTPAuth = true;         // Enable SMTP authentication
 
 
-$mail->Username = 'kryseno.server@gmail.com';   // SMTP username
-$mail->Password = 'KE_lfz9200';   // SMTP password
+$mail->Username = 'EMAIL_USER';   // SMTP username
+$mail->Password = 'EMAIL_PASS';   // SMTP password
 $mail->SMTPSecure = 'tls';      // Enable TLS encryption, `ssl` also accepted, but TLS is a newer more-secure encryption
 $mail->Port = 587;              // TCP port to connect to
 $options = array(
