@@ -9763,13 +9763,13 @@ section.portfolio-section .isotope-container .remove-col-padding {
   color: #999999;
 }
 .page-contact .social-03 li a i:before {
-  font-size: 13px;
+  font-size: 40px;
   margin-right: 10px;
   vertical-align: middle;
   font-family: FontAwesome;
 }
 .page-contact .social-03 li a i {
-  color: #9c5b57;
+  color: #000000;
   font-size: 13px;
 }
 .page-contact .social-03 li:last-of-type {
@@ -9780,7 +9780,7 @@ section.portfolio-section .isotope-container .remove-col-padding {
   border-right: 1px solid #dddddd;
 }
 .page-contact h3 {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 .page-contact h5 {
   color: #b78098;
