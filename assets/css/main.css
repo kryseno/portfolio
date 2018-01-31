@@ -132,6 +132,16 @@ p {
     font-size: 23px;
   }
 }
+@media (max-width: 991px) and (min-width: 768px) {
+  .visible-sm {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs {
+    text-align: center;
+  }
+}
 h1.smb,
 h2.smb,
 h3.smb,
