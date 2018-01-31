@@ -126,6 +126,7 @@ p {
   margin-top: 0;
 }
 @media screen and (max-width: 767px) {
+  h1,
   h2 {
     margin: 0;
     font-size: 23px;
@@ -165,7 +166,7 @@ p.nmb {
           transition: all 0.4s ease-in-out;
 }
 .heading-icon-1:before {
-  color: #9c5b57;
+  color: #b78098;
   content: "\e2d0";
   display: block;
   font-size: 72px;
@@ -180,7 +181,7 @@ p.nmb {
           transition: all 0.4s ease-in-out;
 }
 .heading-icon-2:after {
-  color: #9c5b57;
+  color: #b78098;
   content: "\e2cf";
   display: block;
   font-size: 72px;
@@ -1282,7 +1283,7 @@ input:-webkit-autofill {
   color: #ffffff;
 }
 .normal-btn.normal-btn-main {
-  background-color: #9c5b57;
+  background-color: #b78098;
 }
 .normal-btn.normal-btn-main:hover,
 .normal-btn.normal-btn-main:focus {
@@ -4937,7 +4938,7 @@ header.site-header {
     min-height: 500px;
   }
   .home-fw-slider.style-1 .item-image .caption-wrapper p {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 @media (max-width: 500px) {
@@ -4949,7 +4950,8 @@ header.site-header {
     width: 250px;
   }
   .home-fw-slider.style-1 .item-image .caption-wrapper p {
-    display: none;
+    /* display: none; */
+    margin-top: -35px;
   }
   .home-fw-slider.style-1 .slick-dots {
     visibility: hidden;
@@ -9779,7 +9781,7 @@ section.portfolio-section .isotope-container .remove-col-padding {
   margin-bottom: 50px;
 }
 .page-contact h5 {
-  color: #9c5b57;
+  color: #b78098;
   margin-bottom: 10px;
 }
 /* Page-About */
