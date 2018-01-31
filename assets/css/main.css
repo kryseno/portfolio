@@ -944,7 +944,7 @@ main:after {
 section {
   position: relative;
   padding-top: 75px;
-  padding-bottom: 35px;
+  padding-bottom: 50px;
 }
 section:after {
   clear: both;
