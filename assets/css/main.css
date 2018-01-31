@@ -2490,7 +2490,7 @@ nav:after {
   cursor: pointer;
 }
 .nav-main-menu:not(.left-menu) a {
-  font-size: 11px;
+  font-size: 12px;
 }
 .nav-main-menu a._pending {
   font-style: italic;
@@ -3548,8 +3548,9 @@ nav:after {
   }
   .main-nav-1.onepage-page .nav-main-menu > li > a {
     line-height: 100px;
-    text-shadow: 0px 0 transparent;
+    text-shadow: 2px 0 black;
     color: #DDDDDD;
+    font-weight: bold;
   }
   .main-nav-1.onepage-page .nav-main-menu > li:hover > a,
   .main-nav-1.onepage-page .nav-main-menu > li.active > a {
@@ -4869,7 +4870,7 @@ header.site-header {
   width: 500px;
 }
 .home-fw-slider.style-1 .item-image .caption-wrapper h1 {
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 0;
   margin-top: 0;
   color: #ffffff;
@@ -4878,9 +4879,9 @@ header.site-header {
   font-family: 'Montserrat', sans-serif;
 }
 .home-fw-slider.style-1 .item-image .caption-wrapper p {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 0;
-  margin-top: -55px;
+  margin-top: -100px;
   color: #ffffff;
   text-shadow: 2px 2px 8px #000000;
   font-weight: bold;
