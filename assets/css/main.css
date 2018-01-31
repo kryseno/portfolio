@@ -166,7 +166,7 @@ p.nmb {
           transition: all 0.4s ease-in-out;
 }
 .heading-icon-1:before {
-  color: #9c5b57;
+  color: #d8709d;
   content: "\e2d0";
   display: block;
   font-size: 72px;
@@ -181,7 +181,7 @@ p.nmb {
           transition: all 0.4s ease-in-out;
 }
 .heading-icon-2:after {
-  color: #9c5b57;
+  color: #d8709d;
   content: "\e2cf";
   display: block;
   font-size: 72px;
