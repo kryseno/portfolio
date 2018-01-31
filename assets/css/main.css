@@ -122,7 +122,7 @@ h4,
 h5,
 h6,
 p {
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   margin-top: 0;
 }
 @media screen and (max-width: 767px) {
