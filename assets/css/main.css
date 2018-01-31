@@ -8701,6 +8701,8 @@ section.portfolio-section .isotope-container .remove-col-padding {
 }
 .portfolio-item img {
   width: 100%;
+  height: auto;
+  border: 1px solid black;
 }
 .portfolio-item .overlay {
   -webkit-transition: all 0.4s ease-in-out;
