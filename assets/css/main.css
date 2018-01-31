@@ -78,6 +78,10 @@ body {
   text-rendering: optimizeLegibility;
   font-family: 'Raleway', sans-serif;
 }
+.about-img {
+  width: 80%;
+  margin: 15px;
+}
 h1,
 h2,
 h3,
@@ -95,6 +99,7 @@ h1 {
 }
 h2 {
   font-size: 28px;
+  font-variant: small-caps;
 }
 h3 {
   font-size: 21px;
@@ -119,6 +124,12 @@ h6,
 p {
   margin-bottom: 25px;
   margin-top: 0;
+}
+@media screen and (max-width: 767px) {
+  h2 {
+    margin: 0;
+    font-size: 23px;
+  }
 }
 h1.smb,
 h2.smb,
@@ -1090,7 +1101,7 @@ section.large-space.one-child {
   font-size: 16px;
 }
 .about-me-img {
-  width: 300px;
+  width: 100%;
 }
 .header-type-1 h5 {
   color: #777777;
