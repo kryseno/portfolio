@@ -9753,7 +9753,7 @@ section.portfolio-section .isotope-container .remove-col-padding {
 }
 .page-contact .social-03 {
   line-height: 1;
-  /* text-align: center; */
+  text-align: center;
 }
 .page-contact .social-03 li {
   display: inline-block;
@@ -9769,7 +9769,7 @@ section.portfolio-section .isotope-container .remove-col-padding {
   font-family: FontAwesome;
 }
 .page-contact .social-03 li a i {
-  color: #b78098;
+  color: #000000;
   font-size: 13px;
 }
 .page-contact .social-03 li:last-of-type {
@@ -9780,7 +9780,7 @@ section.portfolio-section .isotope-container .remove-col-padding {
   border-right: 1px solid #dddddd;
 }
 .page-contact h3 {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 .page-contact h5 {
   color: #b78098;
