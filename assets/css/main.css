@@ -126,6 +126,7 @@ p {
   margin-top: 0;
 }
 @media screen and (max-width: 767px) {
+  h1,
   h2 {
     margin: 0;
     font-size: 23px;
@@ -4937,7 +4938,7 @@ header.site-header {
     min-height: 500px;
   }
   .home-fw-slider.style-1 .item-image .caption-wrapper p {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 @media (max-width: 500px) {
@@ -4949,7 +4950,8 @@ header.site-header {
     width: 250px;
   }
   .home-fw-slider.style-1 .item-image .caption-wrapper p {
-    display: none;
+    /* display: none; */
+    margin-top: -35px;
   }
   .home-fw-slider.style-1 .slick-dots {
     visibility: hidden;
