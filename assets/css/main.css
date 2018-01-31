@@ -9753,7 +9753,7 @@ section.portfolio-section .isotope-container .remove-col-padding {
 }
 .page-contact .social-03 {
   line-height: 1;
-  text-align: center;
+  /* text-align: center; */
 }
 .page-contact .social-03 li {
   display: inline-block;
