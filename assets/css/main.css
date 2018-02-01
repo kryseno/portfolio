@@ -82,6 +82,12 @@ body {
   width: 80%;
   margin: 15px;
 }
+#about b {
+  font-size: 14px;
+  /* font-variant: small-caps; */
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
 h1,
 h2,
 h3,
