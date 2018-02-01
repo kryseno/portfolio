@@ -79,13 +79,11 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 .about-img {
-  width: 95%;
-  margin: 15px;
+  width: 100%;
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .about-img {
     width: 70%;
-    margin: 15px;
   }
 }
 #about b {
