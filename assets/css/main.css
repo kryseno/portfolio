@@ -79,8 +79,18 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 .about-img {
-  width: 80%;
-  margin: 15px;
+  width: 100%;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .about-img {
+    width: 70%;
+  }
+}
+#about b {
+  font-size: 14px;
+  /* font-variant: small-caps; */
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 h1,
 h2,
