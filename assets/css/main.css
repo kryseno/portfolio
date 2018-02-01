@@ -82,6 +82,12 @@ body {
   width: 95%;
   margin: 15px;
 }
+@media (max-width: 991px) and (min-width: 768px) {
+  .about-img {
+    width: 70%;
+    margin: 15px;
+  }
+}
 #about b {
   font-size: 14px;
   /* font-variant: small-caps; */
