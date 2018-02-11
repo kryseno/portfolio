@@ -1110,7 +1110,7 @@ jQuery(document).ready(function ($) {
 
             $.ajax({
                 type : "POST",
-                url : 'phpscript/mail_handler.php',
+                url : '../phpscript/mail_handler.php',
                 data : data,
                 success : function (result) {
                     $submit_button.html('SUCCESSFUL <i class="fa fa-check"></i>');
