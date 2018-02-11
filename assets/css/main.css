@@ -78,6 +78,9 @@ body {
   text-rendering: optimizeLegibility;
   font-family: 'Raleway', sans-serif;
 }
+.socialMedia {
+  margin: 15px;
+}
 .about-img {
   width: 100%;
 }
