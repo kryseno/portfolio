@@ -8721,7 +8721,7 @@ section.portfolio-section .isotope-container .remove-col-padding {
 }
 .portfolio-item img {
   width: 100%;
-  height: auto;
+  height: 250px;
   border: 1px solid black;
 }
 .portfolio-item .overlay {
