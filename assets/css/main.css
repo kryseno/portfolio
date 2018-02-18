@@ -9800,7 +9800,7 @@ section.portfolio-section .isotope-container .remove-col-padding {
 }
 .page-contact .social-03 li {
   padding: 0 10px;
-  border-right: 1px solid #dddddd;
+  /* border-right: 1px solid #dddddd; */
 }
 .page-contact h3 {
   /* margin-bottom: 50px; */
