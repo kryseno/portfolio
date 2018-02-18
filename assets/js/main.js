@@ -1127,10 +1127,12 @@ jQuery(document).ready(function ($) {
     loadContact();
 
     function loadContact() {
-        var phone = '949-280-4674'
-        var email = 'kryseno@gmail.com'
+        var phone = '949-28';
+        var ph = phone + '0-4674';
+        var email = 'gmail.com';
+        var em = ('kryseno' + '@' + email);
 
-        $("#phone").append(phone);
-        $("#email").append(email);
+        $("#phone").append(ph);
+        $("#email").append(em);
     }
 });
