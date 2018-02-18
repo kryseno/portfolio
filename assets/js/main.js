@@ -1110,7 +1110,7 @@ jQuery(document).ready(function ($) {
 
             $.ajax({
                 type : "POST",
-                url : '../phpscript/mail_handler.php',
+                url : './phpscript/mail_handler.php',
                 data : data,
                 success : function (result) {
                     $submit_button.html('SUCCESSFUL <i class="fa fa-check"></i>');
@@ -1124,4 +1124,13 @@ jQuery(document).ready(function ($) {
 
     OsContactSubmit();
 
+    loadContact();
+
+    function loadContact() {
+        var phone = '949-280-4674'
+        var email = 'kryseno@gmail.com'
+
+        $("#phone").append(phone);
+        $("#email").append(email);
+    }
 });
