@@ -14105,4 +14105,16 @@ form.cart-page-form .list-button br {
   opacity: 1;
 }
 
+@media (max-width: 767px) {
+  .portfolio-item img {
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .portfolio-item img {
+    height: 166.64px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
