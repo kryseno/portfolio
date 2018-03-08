@@ -1136,13 +1136,6 @@ jQuery(document).ready(function ($) {
         $("#email").append(em);
     }
 
-    // spinner();
-    
-    
-    // function spinner() {
-    //     var handleloader = setTimeout(showContent, 2000);
-    // }
-
     $(window).load(function () {
         showContent();
     });
