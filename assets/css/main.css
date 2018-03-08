@@ -1,5 +1,6 @@
 /* TABLE CONTENT */
 /* 1.Component */
+/* ____SPINNER */
 /* ____Typography */
 /* ____Color */
 /* ____Utilities */
@@ -50,6 +51,49 @@
 /* ____Shortcode Parallax */
 /* ____Index Demo Page */
 /* =============== component ===============*/
+/*SPINNER*/
+#main-nav-onepage,
+main {
+  /* display: none; */
+  visibility: hidden;
+}
+.spinner-outer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background-color: #333;
+
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
 /* Typography */
 .text-left {
   text-align: left;
