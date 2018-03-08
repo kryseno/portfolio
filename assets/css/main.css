@@ -54,7 +54,6 @@
 /*SPINNER*/
 #main-nav-onepage,
 main {
-  /* display: none; */
   visibility: hidden;
 }
 .spinner-outer {

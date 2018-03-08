@@ -1136,19 +1136,20 @@ jQuery(document).ready(function ($) {
         $("#email").append(em);
     }
 
-    spinner();
+    // spinner();
     
-    function spinner() {
-        var handleloader = setTimeout(showContent, 2000);
-    }
+    
+    // function spinner() {
+    //     var handleloader = setTimeout(showContent, 2000);
+    // }
+
+    $(window).load(function () {
+        showContent();
+    });
 
     function showContent() {
         $(".spinner-outer").css("display", "none");
         $(".spinner").css("display", "none");
-        // $("#main-nav-onepage").css("display", "block");
-        // $("main").css("display", "block");
-        // $(".spinner-outer").css("visibility", "hidden");
-        // $(".spinner").css("visibility", "hidden");
         $("#main-nav-onepage").css("visibility", "visible");
         $("main").css("visibility", "visible");
     }
