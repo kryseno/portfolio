@@ -8676,7 +8676,7 @@ footer .blog-related .blog-related-item {
 }
 .isotope-container .iso-grid .grid-item {
   height: auto;
-  padding-bottom: 30px;
+  padding-bottom: 1%;
 }
 .isotope-container .remove-col-padding .iso-grid .grid-item {
   padding-bottom: 0;
@@ -8781,7 +8781,7 @@ section.portfolio-section .isotope-container .remove-col-padding {
   color: #ffffff;
 }
 .portfolio-item .overlay-content {
-  padding: 20px;
+  /* padding: 20px 20px 50px 20px; */
   overflow: auto;
 }
 .portfolio-item .overlay-content h1,
@@ -14198,6 +14198,10 @@ form.cart-page-form .list-button br {
   .portfolio-item img {
     width: auto;
   }
+}
+
+.portfolio-item .overlay-content h5{
+  margin-bottom: -5%;
 }
 
 /*# sourceMappingURL=main.css.map */
