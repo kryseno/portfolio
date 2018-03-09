@@ -3634,9 +3634,10 @@ nav:after {
   }
   .main-nav-1.onepage-page .nav-main-menu > li > a {
     line-height: 100px;
-    text-shadow: 2px 0 black;
+    text-shadow: 2px 2px 8px black;
     color: #DDDDDD;
     font-weight: bold;
+    font-size: 14px;
   }
   .main-nav-1.onepage-page .nav-main-menu > li:hover > a,
   .main-nav-1.onepage-page .nav-main-menu > li.active > a {
