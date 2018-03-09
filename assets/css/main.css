@@ -14191,13 +14191,12 @@ form.cart-page-form .list-button br {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .portfolio-item {
     text-align: center;
   }
   .portfolio-item img {
     width: auto;
-    height: 221px;
   }
 }
 
