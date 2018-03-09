@@ -458,13 +458,16 @@ jQuery(document).ready(function ($) {
 
             $.ajax({
                 type : "POST",
-                url : './phpscript/mail_handler.php',
+                url : 'assets/phpscript/mail_handler.php',
                 data : data,
                 success : function (result) {
                     $submit_button.html('SUCCESSFUL <i class="fa fa-check"></i>');
                     setTimeout(function(){
                         $submit_button.removeAttr('disabled').html(backup_button);
                     },2000)
+                },
+                error : function (result) {
+
                 }
             });
         })
