@@ -124,6 +124,9 @@ body {
 .socialMedia {
   margin: 15px;
 }
+.socialMedia:hover {
+  color: black;
+}
 .about-img {
   width: 100%;
 }
@@ -1394,6 +1397,9 @@ input:-webkit-autofill {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.05em;
   font-size: 12px !important;
+}
+.page-contact .social-03 li a i:hover {
+  color: #b78098;
 }
 .social-04 a {
   color: #9c5b57;
