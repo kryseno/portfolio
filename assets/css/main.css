@@ -127,16 +127,6 @@ body {
 .about-img {
   width: 100%;
 }
-@media (max-width: 991px) {
-  #about-details {
-    margin-top: 15px;
-  }
-}
-@media (max-width: 991px) and (min-width: 768px) {
-  .about-img {
-    width: 70%;
-  }
-}
 #about b {
   font-size: 14px;
   /* font-variant: small-caps; */
@@ -188,23 +178,6 @@ h6,
 p {
   /* margin-bottom: 25px; */
   margin-top: 0;
-}
-@media screen and (max-width: 767px) {
-  h1,
-  h2 {
-    margin: 0;
-    font-size: 23px;
-  }
-}
-@media (max-width: 991px) and (min-width: 768px) {
-  .visible-sm {
-    text-align: center;
-  }
-}
-@media (max-width: 767px) {
-  .visible-xs {
-    text-align: center;
-  }
 }
 h1.smb,
 h2.smb,
@@ -5026,7 +4999,7 @@ header.site-header {
   }
   .home-fw-slider.style-1 .item-image .caption-wrapper p {
     /* display: none; */
-    margin-top: -35px;
+    margin-top: -55px;
   }
   .home-fw-slider.style-1 .slick-dots {
     visibility: hidden;
@@ -14157,6 +14130,51 @@ form.cart-page-form .list-button br {
   opacity: 1;
 }
 
+/*****************************************************/
+/*                                                   */
+/*                    Media Queries                  */
+/*                                                   */
+/*****************************************************/
+/* Typography */
+@media screen and (max-width: 767px) {
+  h1,
+  h2 {
+    margin: 0;
+    font-size: 23px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .visible-sm {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs {
+    text-align: center;
+  }
+}
+
+/* Home Page Captions */
+@media (min-width: 501px) and (max-width: 767px) {
+  .home-fw-slider.style-1 .item-image .caption-wrapper p {
+    margin-top: -80px;
+    font-size: 25px;
+  }
+}
+
+/* About */
+@media (max-width: 991px) {
+  #about-details {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .about-img {
+    width: 70%;
+  }
+}
+
+/* Portfolio */
 @media (max-width: 539px) {
   .portfolio-item img {
     width: 100%;
