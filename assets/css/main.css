@@ -3626,7 +3626,7 @@ nav:after {
     width: 110px;
   }
   .main-nav-1.onepage-page .nav-logo img {
-    max-height: 80px;
+    max-width: 35%;
   }
   .main-nav-1.onepage-page .nav-top-search {
     line-height: 100px;
