@@ -1012,6 +1012,10 @@ section {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+section#contact {
+  padding-top: 10%;
+  padding-bottom: 13%;
+}
 section:after {
   clear: both;
 }
@@ -9854,8 +9858,10 @@ section.portfolio-section .isotope-container .remove-col-padding {
   /* margin-bottom: 50px; */
 }
 .page-contact h5 {
-  color: #b78098;
-  margin-bottom: 10px;
+  color: black;
+  font-variant: small-caps;
+  font-size: 21px;
+  margin-bottom: 2%;
 }
 /* Page-About */
 .page-about-header {
