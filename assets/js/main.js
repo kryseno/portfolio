@@ -483,8 +483,8 @@ jQuery(document).ready(function ($) {
         var email = 'gmail.com';
         var em = ('kryseno' + '@' + email);
 
-        $("#phone").append(ph);
-        $("#email").append(em);
+        $(".fa-mobile").append(ph);
+        $(".fa-envelope").append(em);
     }
 
     $(window).load(function () {
