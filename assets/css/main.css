@@ -138,6 +138,13 @@ body {
 }
 .portfolio-descript {
   font-size: 100%;
+  margin: 0 15%;
+}
+.portfolio-descript h5 {
+  margin: -4%;
+}
+.portfolio-mobile {
+  margin-bottom: 10%;
 }
 h1,
 h2,
@@ -1013,7 +1020,7 @@ section:after {
   display: table;
 }
 section .section-header {
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 section .section-header:after {
   clear: both;
