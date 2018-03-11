@@ -447,7 +447,7 @@ jQuery(document).ready(function ($) {
      * @constructor
      */
     function OsContactSubmit() {
-        $('#contact_form').on('submit', function () {
+        $('#contact_form').on('submit', function (event) {
             event.preventDefault();
 
             var $submit_button = $(this).find('button[type="submit"]');
@@ -467,7 +467,7 @@ jQuery(document).ready(function ($) {
                     },2000)
                 },
                 error : function (result) {
-
+                    
                 }
             });
         })
