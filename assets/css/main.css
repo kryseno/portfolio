@@ -146,6 +146,15 @@ body {
 .portfolio-mobile {
   margin-bottom: 10%;
 }
+.normal-btn.normal-btn-main.btn-size-5.disabled {
+  background-color: #e8e8e8;
+  color: black;
+  border: 1px solid black;
+  padding: 2%;
+}
+.normal-btn.normal-btn-main.btn-size-5.disabled:hover {
+  background-color: #e8e8e8;
+}
 h1,
 h2,
 h3,
@@ -1287,7 +1296,7 @@ input:-webkit-autofill {
 .normal-btn {
   border: 0;
   display: inline-block;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 2px;
   line-height: 1.6;
   outline: none;
