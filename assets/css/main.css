@@ -1033,7 +1033,7 @@ section:after {
   display: table;
 }
 section .section-header {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 section .section-header:after {
   clear: both;
