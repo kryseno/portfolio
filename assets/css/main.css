@@ -128,9 +128,6 @@ body {
 .socialMedia:hover {
   color: black;
 }
-.about-img {
-  width: 50%;
-}
 #about-details {
   text-align: justify;
 }
@@ -1176,9 +1173,6 @@ section.large-space.one-child {
   font-style: italic;
   font-family: 'Playfair Display', serif;
   font-size: 16px;
-}
-.about-me-img {
-  width: 100%;
 }
 .header-type-1 h5 {
   color: #777777;
